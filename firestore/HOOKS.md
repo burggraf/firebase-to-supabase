@@ -9,7 +9,7 @@ Hooks allow you to customize the process of exporting a collection of Firestore 
 ## Writing a hook
 
 #### Create a .js file for your collection
-If your Firestore collection is called `users` then create a file called `users.js` in the current folder.
+If your Firestore collection is called `users` then create a file called `users_processDocument.js` in the same directory as the `firestore2json.js` script.
 
 #### Constructing your .js file
 The basic format of a hook file looks like this:
